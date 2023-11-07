@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.pai{
+    display: flex;
+	flex-wrap: wrap;
+    background-color: white;
+}
+#filhoverde{
+    height: 15vh;
+    width: 100%;
+    background-color: #075d16;
+}
+#logo{
+    height: 109px;
+    width: 90px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+::placeholder{
+    font-size: medium;
+    color: #075f16;    
+}
+#form{
+    margin-left: 1700px;
+    margin-top: -92px;
+}
+#filhocinza{
+    height: 20vh;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+#banner{
+    height: 15vh;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 630px;
+}
+#filhobranco{
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+}
+#bannereleicao{
+    margin-top: 7px;
+    margin-left: 17px;
+    margin-right: 25px;
+}
+#botoes{
+    margin-top: -536px;
+    margin-left: 1430px;
+}
+#zap{
+    height: 17vh;
+    width: 450px;
+}
+#estudante{
+    margin-left: 30px;
+    height: 9vh;
+    width: 420px;
+}
+#cursos{
+    margin-left: 30px;
+    height: 9vh;
+    width: 420px;
+}
+#edital{
+    margin-left: 30px;
+    height: 9vh;
+    width: 420px;
+}
+h1{
+    color: blue;
+}
+.pai{
+    margin: 0;
+}
+#filhoverde1{
+    height: 25vh;
+    width: 100%;
+    background-color: #075d16;
+}
+@media (max-width: 760px) {
+    body{
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+    }
+    #text{
+        margin-left: -225px;
+    }
+    #filhoverde{
+        height: 95px;
+        width: 534px;
+    }
+    #logo{
+        height: 75px;
+        width: 62px;
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+    #filhocinza{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    #imgbanner{
+        height: 250px;
+        width: 500px;
+    }
+    #botoes{
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-bottom: -250px;
+    }
+    #zap{
+        height: 185px;
+        width: 450px;
+
+    } 
+    #estudante, #cursos, #edital{
+       margin-left: 0;
+        height: 12vh;
+        width: 450px;
+    }
+    #filhoverde1{
+        height: 95px;
+        width: 545px;
+        margin-top: 345px; 
+    }
+ }
